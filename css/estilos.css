@@ -1,0 +1,45 @@
+.section1{
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.container{
+	margin-top: 20vh;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.publicidad4{
+	float: right;
+    position: fixed;
+    padding-left: 88%;
+    top: 80px;
+}
+
+.publicidad5{
+	float: left;
+    position: fixed;
+    top: 80px;
+}
+
+.contenedor{
+    background: rgba(0,0,0,.5);
+}
+
+
+.parallax { 
+    /* The image used */
+    background-image: url("../img/fondo2.jpg");
+
+    /* Set a specific height */
+	height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	
+    color: white;
+}
+
